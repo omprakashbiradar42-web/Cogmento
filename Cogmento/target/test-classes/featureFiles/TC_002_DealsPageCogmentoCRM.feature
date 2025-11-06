@@ -1,7 +1,7 @@
 Feature: Test Cogmento CRM UI Automation Test Cases
 
   Scenario: Validate login functionality
-    Given user open application in "chrome" browser
+    Given user open application in "incognito" browser
     When user enter valid username and password
     Then user click on login button
 
